@@ -1,0 +1,239 @@
+/* Global Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Header Styles */
+.mainnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#smallscreen {
+    display: none;
+}
+
+#smnav {
+    display: flex;
+    gap: 15px;
+}
+
+#icon {
+    display: flex;
+    gap: 15px;
+}
+
+/* Logo Section */
+#logo {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Hero Section */
+#hero {
+    background: url('https://your-image-url.com') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero_div {
+    margin-top: 50px;
+}
+
+#shopes {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Member Favorites Section */
+#member {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#member_1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#member_1 div {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Bestsellers Section */
+#best {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+/* Product Images */
+#img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#img div {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Every Age Section */
+#every {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+#every img {
+    margin-right: 20px;
+}
+
+/* Just Released Section */
+#just_realised {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#just_realised div {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Categories Section */
+#catagory {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#catagory div {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Wishlist Section */
+#wishlist {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+#wishlist div {
+    text-align: center;
+}
+
+/* Footer Styles */
+#log {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #smallscreen {
+        display: block;
+    }
+
+    .mainnav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #smnav {
+        flex-direction: column;
+        display: none; /* Will show with JS toggle */
+    }
+
+    #smnav.active {
+        display: flex;
+    }
+
+    #icon {
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+
+    #hero {
+        height: 300px;
+    }
+
+    #every {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #member_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #just_realised {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #catagory {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #wishlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

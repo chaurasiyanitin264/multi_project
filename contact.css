@@ -1,0 +1,26 @@
+*{
+    text-decoration: none;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#home_contact{
+    margin-left: 600px;
+}
+#contact_1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#sub:hover{
+    background-color: black;
+    color: aqua;
+}
+#lets{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    align-items: center;
+    background-color: aqua;
+    border:100px;
+}

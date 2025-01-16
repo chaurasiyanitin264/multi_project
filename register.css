@@ -1,0 +1,45 @@
+*{
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+#first_name{
+    padding: 10px;
+    font-size: 24px;
+    width: 400px;
+    
+}
+#last_name{
+    padding: 10px;
+    font-size: 24px;
+    width: 400px;
+}
+#email{
+    padding: 10px;
+    font-size: 24px;
+    width: 400px;
+}
+#password{
+    padding: 10px;
+    font-size: 24px;
+    width: 400px;
+}
+#confirm{
+    padding: 10px;
+    font-size: 24px;
+    width: 400px;
+}
+#register{
+    padding: 10px;
+    font-size: 24px;
+    width: 400px;
+}
+#register:hover{
+    color: black;
+}
+#login{
+    padding: 10px;
+    font-size: 24px;
+    width: 400px;
+}

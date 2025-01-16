@@ -1,0 +1,199 @@
+*{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:500px;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+html{
+    overflow-x: hidden;
+}
+#logos{
+    background-color: black;
+    color: yellow;
+    width: 30px;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    position: fixed;
+    top: 400px;
+    left: 0px;
+
+}
+#phone{
+    background-color: white;
+    color: yellow;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    font-size: 28px;
+    border-radius: 50px;
+    top: 450px;
+    position: fixed;
+    left: 100px;
+}
+#mainnav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Purple-Checked-Background-Image.jpg);
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    overflow-x:  hidden;
+
+}
+#mainnav li ul{
+    display: flex;
+    list-style-type: none;
+
+}
+#mainnav li ul li a{
+    text-decoration: none;
+    padding: 20px;
+}
+/*---======hero css======------*/
+#hero{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 100px 0px 100px;
+    border-top: 2px solid black;
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Purple-Checked-Background-Image.jpg);
+    overflow-x:  hidden;
+}
+#hero div img{
+    width: 500px;
+}
+#hero div{
+    color: blueviolet;
+}
+#hero div div #say{
+    background-color: aqua;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 5px 10px 5px 10px;
+}
+#hero div div #say:hover{
+    background-color: white;
+    color: white;
+}
+/*---=========hello========-------*/
+#hello{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Purple-Checked-Background-Image.jpg);
+    padding: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;;
+    overflow-x:  hidden;
+}
+ #hello1{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+#hello2{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+#hello3{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+/*---------======my=======--------*/
+#digital{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 140px;
+    position: absolute;
+    top: 950px;
+    left: 100px;
+    background-color: rgb(127, 170, 187);
+    overflow-x:  hidden;
+}
+#direct{
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+        width: 140px;
+        position: absolute;
+        top: 950px;
+        left: 400px;
+        background-color: rgb(127, 170, 187);
+        overflow-x:  hidden;
+}
+#awards{
+        display: flex;
+         align-items: center;
+        border: 2px solid black;
+        width: 140px;
+        position: absolute;
+        top: 950px;
+        left: 700px;background-color: rgb(127, 170, 187);
+        overflow-x:  hidden;
+}
+#project{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 140px;
+    position: absolute;
+    top: 950px ;
+    left: 1000px;
+    background-color: rgb(127, 170, 187);
+    overflow-x:  hidden;
+}
+#year{
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    width: 150px;
+    position: absolute;
+    top: 1300px;
+    left: 250px;
+    overflow-x:  hidden;
+#year div{
+    margin: 5px;
+}
+}
+#my{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px 0px 0px;
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Purple-Checked-Background-Image.jpg) ;
+    overflow: hidden;
+}
+#my div div #you{
+    border:2px solid black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 24px;
+}
+#my div div #you:hover{
+    background-color: red;
+    color: blue;
+    border-radius: 30px;
+}
+#style{
+    border: 2px solid black;
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Purple-Checked-Background-Image.jpg);
+     overflow-x:  hidden;
+}

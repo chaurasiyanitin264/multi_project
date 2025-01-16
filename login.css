@@ -1,0 +1,28 @@
+*{
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+#log_in_form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#log{
+    padding: 20px;
+}
+#email{
+    padding: 10px;
+}
+#password{
+    padding: 10px;
+}
+#sign{
+    padding: 10px; 
+    width: 200px;
+}
+#register{
+    padding: 10px; 
+    width: 200px;
+}

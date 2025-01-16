@@ -1,0 +1,60 @@
+*{
+    text-decoration: none;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#cart4{
+    display: flex;
+    justify-content: space-evenly;
+}
+#cart{
+    padding: 10px;
+    width: 500px;
+}
+#home_book{
+    margin-left: 600px;
+}
+#cart:hover{
+    background-color: black;
+    color: white;
+}
+#buy{
+    padding: 10px;
+    width: 500px;
+}
+#buy:hover{
+    background-color: black;
+    color: white;
+}
+.mainnav li ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.inf{
+    display: flex;
+    justify-content: space-evenly;
+}
+#you_might{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-left: 50px;
+}
+#free{
+    display: flex;
+    justify-content: space-evenly;
+}
+#wishlist{
+    display: flex;
+    justify-content: space-evenly;
+}
+#email_button{
+    padding: 20px;
+    font-size: 24px;
+}
+#log{
+    font-size: 24px;
+    color: black;
+    margin-left: 200px;
+}

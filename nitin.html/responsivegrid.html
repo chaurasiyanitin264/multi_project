@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .res{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-evenly;
+        }
+        .res div{
+            width: 200px;
+            height: 400px;
+            background-color: aqua;
+            margin: 20px;
+
+        }
+        @media(max-width:1024px){
+            .res{
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+        }
+        @media(max-width:768){
+            .res{
+                display: grid;
+                grid-template-columns:  auto auto;
+            }
+        }
+        @media(max-width:426){
+            .res{
+                display: grid;
+                grid-template-columns:   auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="res">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
+</body>
+</html>
